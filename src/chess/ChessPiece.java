@@ -8,8 +8,8 @@ public class ChessPiece extends Piece{
 	
 	private Color color;
 
-	public ChessPiece(Position position, Board board, Color color) {
-		super(position, board);
+	public ChessPiece(Board board, Color color) {
+		super(board);
 		this.color = color;
 	}
 
@@ -17,7 +17,9 @@ public class ChessPiece extends Piece{
 		return color;
 	}
 
-	
+	public void setColor(Color color) {
+		this.color = color;
+	}
 	
 	
 	
