@@ -51,11 +51,17 @@ public class UI {
 
 	}
 	
+<<<<<<< HEAD
 	public static void printMatch(ChessMatch chessMatch, List<ChessPiece> captured) {
 		printBoard(chessMatch.getPieces());
 		System.out.println();
 		printCapturedPices(captured);
 		System.out.println();
+=======
+	public static void printMatch(ChessMatch chessMatch) {
+		printBoard(chessMatch.getPieces());
+		System.out.println();
+>>>>>>> 2857c86781dc7edf32daedf2ea6c9b2f375a50fb
 		System.out.println("Turn: "+ chessMatch.getTurn());
 		System.out.println("Waiting player: "+ chessMatch.getCurrentPlayer());
 	}
